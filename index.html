@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="controls">
+        <button id="newgame">New Game</button>
+        <button id="hit">Hit</button>
+        <button id="stand">Stand</button>
+    </div>
+<center>
+    <div class="scores" id="scoreboard">     
+        <p>Dealer Score: <span id="dealer-score">0</span></p>
+    </div>
+</center>
+  <div class="flex-box">
+    <img src="assets/dealer.png" class="dealer">
+  </div>
+
+        <div id="card-table">
+            <img id="dealercard1" class="cards" src="cards/BACK.png">
+            <img id="dealercard2" class="cards" src="cards/BACK.png">
+            <img id="dealercard3" class="cards hidden" src="cards/BACK.png">
+            <img id="dealercard4" class="cards hidden" src="cards/BACK.png">
+            <img id="dealercard5" class="cards hidden" src="cards/BACK.png">
+            <img id="dealercard6" class="cards hidden" src="cards/BACK.png">
+            <img id="dealercard7" class="cards hidden" src="cards/BACK.png">
+            <img id="dealercard8" class="cards hidden" src="cards/BACK.png">
+        </div>
+        <br>
+        <div id="card-table">
+            <img id="playercard1" class="cards" src="cards/BACK.png">
+            <img id="playercard2" class="cards" src="cards/BACK.png">
+            <img id="playercard3" class="cards hidden" src="cards/BACK.png">
+            <img id="playercard4" class="cards hidden" src="cards/BACK.png">
+            <img id="playercard5" class="cards hidden" src="cards/BACK.png">
+            <img id="playercard6" class="cards hidden" src="cards/BACK.png">
+            <img id="playercard7" class="cards hidden" src="cards/BACK.png">
+            <img id="playercard8" class="cards hidden" src="cards/BACK.png">
+        </div>
+    <center>
+        <div class="scores" id="scoreboard">
+            <p>Player Score: <span id="player-score">0</span></p>
+        </div> 
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>

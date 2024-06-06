@@ -1,0 +1,74 @@
+.hidden {
+    display: none;
+}
+
+.dealer{
+    transform: scale(0.3);
+}
+
+.player{
+    transform: scale(0.85);
+}
+
+.flex-box{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 10px;
+}
+
+.player-flex-box{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+div.flex-box{
+    margin: auto;
+    width: 50%;
+    height: 350px;
+    padding: 1px;
+    margin-top: 0px;
+} 
+
+body{
+    background-color: green;
+}
+
+#card-table{
+    display: block; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 25%;
+    height: 170px;
+    border: 1px;
+    border-radius: 5px;
+    gap: 10px;
+}
+.card-table-background{
+    background-color: rgba(0, 0, 0, 0.25);
+    display: block; 
+    margin: 0 auto;
+    width: 25%;
+    border-radius: 30px;
+
+}
+.cards{
+    transition: all 150ms ease-in-out;
+    transform: scale(1);
+}
+.cards:hover{
+    transition: all 150ms ease-in-out;
+    transform: scale(1.15);
+}
+
+button{
+    height: 40%;
+}
+#scoreboard{
+    font-family:sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
